@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Vazirmatn', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #fff0f5, #ffe0eb, #ffd6e5);
+    overflow: hidden;
+}
+
+.container {
+    width: 90%;
+    max-width: 450px;
+    padding: 45px 30px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.85);
+    border-radius: 25px;
+    box-shadow: 0 15px 45px rgba(220, 80, 130, 0.15);
+}
+
+.heart-icon {
+    font-size: 65px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 25px;
+    color: #d6336c;
+    margin-bottom: 15px;
+}
+
+.question-box p {
+    color: #987080;
+    font-size: 15px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-top: 35px;
+    min-height: 55px;
+    position: relative;
+}
+
+button {
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+    border-radius: 12px;
+    padding: 12px 30px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.yes-button {
+    color: white;
+    background: #e64980;
+    box-shadow: 0 5px 15px rgba(230, 73, 128, 0.25);
+}
+
+.yes-button:hover {
+    background: #d6336c;
+    transform: translateY(-3px);
+}
+
+.no-button {
+    color: #8c6877;
+    background: #f8e4eb;
+    border: 1px solid #f1cbd8;
+}
+
+.success-message {
+    display: none;
+}
+
+.success-heart {
+    font-size: 75px;
+    margin-bottom: 20px;
+}
+
+.success-message h2 {
+    color: #d6336c;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+.success-message p {
+    color: #987080;
+    font-size: 16px;
+    line-height: 2;
+}
